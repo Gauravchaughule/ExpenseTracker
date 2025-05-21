@@ -1,0 +1,112 @@
+C:\Users\gaurav.chaughule\.jdks\corretto-20.0.2.1\bin\java.exe -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:65231,suspend=y,server=n -javaagent:C:\Users\gaurav.chaughule\AppData\Local\JetBrains\IdeaIC2024.1\captureAgent\debugger-agent.jar -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "D:\Gaurav-Projects\expensetracker\out\production\expensetracker;C:\Users\gaurav.chaughule\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar" com.task.expensetracker.Main
+Connected to the target VM, address: '127.0.0.1:65231', transport: 'socket'
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice: 1
+Enter category (e.g. Salary, Rent, Travel):
+Salary
+Enter amount:
+10000
+Income added.
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice: 2
+Enter category (e.g. Salary, Rent, Travel):
+Food
+Enter amount:
+1500
+Expense added.
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice: 5
+Enter month and year (YYYY-MM):
+2025-05
+
+Summary for 2025-05
+Total Income: 10000.0
+  Salary: 10000.0
+Total Expense: 1500.0
+  Food: 1500.0
+Net Savings: 8500.0
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice: 3
+----------------------------------------------------------------------------------
+
+Make sure your file should contain columns ordered as date, type, category, amount
+Date should be in 'YYYY-MM-DD' format.
+Only CSV file format acceptable.
+
+----------------------------------------------------------------------------------
+
+Would you like to generate a sample template file?
+1. Yes
+2. No
+
+Enter your choice:
+1
+Enter filename for the template (e.g., template.csv):
+sample-template.csv
+Template created successfully: sample-template.csv
+Enter filepath to load :
+D:\Gaurav-Projects\expensetracker\input.csv
+Data loaded successfully.
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice: 5
+Enter month and year (YYYY-MM):
+2025-05
+
+Summary for 2025-05
+Total Income: 395000.0
+  Salary: 160000.0
+  Business: 235000.0
+Total Expense: 20200.0
+  Travel: 4500.0
+  Internet Bill: 1200.0
+  Food: 14500.0
+Net Savings: 374800.0
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice: 4
+Enter filename to save:
+monthly-summary-05-2025.csv
+Data saved.
+
+1. Add Income
+2. Add Expense
+3. Load from file
+4. Save to file
+5. Monthly Summary
+6. Exit
+Enter your choice:
